@@ -2,7 +2,7 @@
 
 import React from "react";
 
-// import curriculo from "@/app/assets/Lorem-Ipsum.pdf";
+import { curriculo } from "./services";
 import { mocks } from "@/app/services/mocks";
 import { Button, Title } from "@/app/components/elements";
 import { Layout, CloudStack } from "@/app/components/organism";
@@ -64,7 +64,7 @@ export default function Home() {
                         Baixado
                       </span>
                     }
-                    downloadFileUrl={"@/app/assets/Lorem-Ipsum.pdf"}
+                    downloadFileUrl={curriculo}
                   />
                 </BoxReveal>
               </div>
