@@ -1,4 +1,4 @@
-import { project } from "@/types";
+import { project } from "@/app/utils/types";
 
 export type Props = {
   projects: project[];
