@@ -71,7 +71,7 @@ export const Card = ({ projects, className }: Props) => {
                   >
                     <button
                       className="bg-transparent flex justify-between items-center absolute p-[0.65rem] top-6 right-5 border-2 rounded-[1.88rem] z-[1]"
-                      onClick={() => router.push(`/projects/${item.id}`)}
+                      onClick={() => router.push(`/pages/projects/${item.id}`)}
                     >
                       <svg
                         width="20"

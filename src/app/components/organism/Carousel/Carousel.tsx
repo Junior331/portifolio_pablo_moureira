@@ -67,7 +67,7 @@ export const Carousel = ({ projects }: Props) => {
                 "rounded-lg overflow-hidden border-2 border-white cursor-pointer w-28 h-32 relative flex-shrink-0",
                 index + 1 === list.length ? "mr-3" : ""
               )}
-              onClick={() => router.push(`/projects/${item.id}`)}
+              onClick={() => router.push(`/pages/projects/${item.id}`)}
             >
               <Image
                 src={item.image}
