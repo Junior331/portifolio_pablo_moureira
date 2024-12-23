@@ -2,11 +2,11 @@
 
 import React from "react";
 
-import { curriculo } from "./services";
 import { mocks } from "@/app/services/mocks";
 import { Button, Title } from "@/app/components/elements";
 import { Layout, CloudStack } from "@/app/components/organism";
 import { BoxReveal, BlurIn, NumberTicker } from "@/app/components/modules";
+const curriculo = "/assets/lorem_ipsum.pdf";
 
 export default function Home() {
   return (

@@ -1,8 +1,8 @@
-# Checkout Carbon
+# Portifolio Pablo Moureira
 
 ## App
 
-- https://frontend-test-tree.vercel.app/
+- https://portifolio-pablo-moureira.vercel.app/
 
 #### O Produto
 ![alt text](image.png)
@@ -13,7 +13,7 @@
 ## Principais Tecnologias utilizadas
 
 - Next
-- daisyUI
+- Jest
 - Tailwind
 - Typescript
 
@@ -54,23 +54,26 @@ yarn dev
      - [x] Input 
      - [x] Title 
      - [x] Button
+     - [x] RenderIcon
+     - [x] CloudContainer
 
   ## Organism
 
-  - [x] Form
+  - [x] Card
   - [x] Layout
-  - [x] CreditCard
+  - [x] Timeline
+  - [x] Carousel
+  - [x] CloudStack
+  - [x] BackgroundBeamsWithCollision
 
   ## Modules
 
+     - [x] Menu
      - [x] Header
-
-     aws.svg           
-     figma_.svg         
-     index.ts        
-     metamask.svg     
-     react.svg       
-     typescript.svg  
+     - [x] BlurIn
+     - [x] Skeleton
+     - [x] BoxReveal
+     - [x] NumberTicker
 
 ### Descrição da estrutura do projeto
 

@@ -1,5 +1,4 @@
 import { AxiosError } from "axios";
-export const curriculo =  "../../assets/lorem_ipsum.pdf";
 
 import { fetchEventsUserProps, fetchInfoUserProps, fetchReposUserProps } from "./@types";
 import { httpRequest } from "@/app/utils/types";
