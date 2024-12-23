@@ -1,7 +1,7 @@
 import { ICloud } from "react-icon-cloud";
-import { project } from "../types";
 import { images } from "../assets/images";
 import { mocks } from "../services/mocks";
+import { project } from "./types";
 
 export const cloudProps: Omit<ICloud, "children"> = {
   containerProps: {
