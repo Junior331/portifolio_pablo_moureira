@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
-import "./embla.css";
-import "./globals.css";
+import "../embla.css";
+import "../globals.css";
 import { inter } from "../assets/fonts";
 
 export const metadata: Metadata = {
