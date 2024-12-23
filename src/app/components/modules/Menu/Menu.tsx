@@ -111,7 +111,7 @@ export const Menu = () => {
         </motion.h2>
         <motion.div
           variants={mobileMenuVariant}
-          className="flex flex-col items-center bg-black fixed top-0 left-0 h-screen w-screen z-20"
+          className="flex flex-col items-center bg-black fixed top-0 left-0 h-screen w-screen z-50"
         >
           <motion.button
             variants={fadeInVariant}
