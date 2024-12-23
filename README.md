@@ -1,8 +1,8 @@
-# Checkout Carbon
+# Portifolio Pablo Moureira
 
 ## App
 
-- https://frontend-test-tree.vercel.app/
+- https://portifolio-pablo-moureira.vercel.app/
 
 #### O Produto
 ![alt text](image.png)
@@ -13,7 +13,7 @@
 ## Principais Tecnologias utilizadas
 
 - Next
-- daisyUI
+- Jest
 - Tailwind
 - Typescript
 
