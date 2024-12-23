@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
 
+import "./embla.css";
+import "./globals.css";
+import { inter } from "../assets/fonts";
+
 export const metadata: Metadata = {
-  title: "Checkout Carbon",
-  description: "Challenge Front-End",
+  title: "Portfólio",
+  description: "Pablo Moureira",
 };
 
 export default function RootLayout({
@@ -12,10 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/logo.svg" sizes="any" />
-      </head>
-      <body>{children}</body>
+      <body
+        className={`${inter.className} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
