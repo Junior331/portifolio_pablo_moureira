@@ -1,4 +1,5 @@
 import aws from "./aws.svg";
+import azure from "./azure.png";
 import figma from "./figma.svg";
 import react from "./react.svg";
 import metamask from "./metamask.svg";
@@ -9,6 +10,7 @@ export const icons = {
   aws,
   figma,
   react,
+  azure,
   fallback,
   metamask,
   typescript,

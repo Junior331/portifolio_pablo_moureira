@@ -16,7 +16,8 @@ export default function Home() {
           <div className="flex flex-col gap-14 w-full ">
             <BoxReveal boxColor={"#262626"} duration={0.5}>
               <Title className="text-5xl leading-[55px] font-extrabold">
-                Hi, I’m <br />
+                Olá, eu sou
+                <br />
                 PABLO MOUREIRA
               </Title>
             </BoxReveal>
@@ -24,27 +25,29 @@ export default function Home() {
             <div className="flex flex-col gap-3 max-w-[760px] ">
               <BoxReveal boxColor={"#262626"} duration={0.5}>
                 <p className="inter capitalize text-lg font-extralight">
-                  Sou especialista backend e apaixonado por javascript.
-                  Normalmente, trabalho com aplicações node e suas tecnologias
-                  aliadas, a exemplo do Express, serviços AWS, MySQL, MongoDB,
-                  Docker e etc, das quais sou entusiasta. SA.
+                  Sou especialista em soluções tecnológicas e apaixonado por
+                  inovação. Ao longo da minha trajetória, enfrentei desafios
+                  diversos, desde o desenvolvimento de ferramentas para
+                  transmissões esportivas baseadas em scouts até soluções de
+                  pagamento e financeiras alinhadas a rigorosos padrões
+                  regulatórios governamentais.
                 </p>
               </BoxReveal>
 
               <BoxReveal boxColor={"#262626"} duration={0.5}>
                 <p className="inter capitalize text-lg font-extralight">
-                  Hoje presto serviço para uma startup fintech, em uma grande
-                  empresa multinacional do setor de varejo, com foco em bank as
-                  service. Antes passei por algumas outras empresas e
-                  consultorias, aonde destacaria a TV Globo e as Lojas
-                  Americanas SA.
+                  Minha experiência é fruto de uma carreira dedicada à
+                  engenharia de produtos, onde trabalhei com uma ampla gama de
+                  tecnologias: de Java a JavaScript, passando por linguagens de
+                  script, desenvolvimento de aplicações mobile e web, além de
+                  práticas de segurança e infraestrutura.
                 </p>
               </BoxReveal>
 
               <BoxReveal boxColor={"#262626"} duration={0.5}>
                 <p className="inter capitalize text-lg font-extralight">
-                  Fico à disposição para dúvidas e poder contribuir com soluções
-                  aos seus problemas.
+                  Estou à disposição para ajudar a transformar suas ideias em
+                  soluções práticas e eficazes. Vamos conversar?
                 </p>
               </BoxReveal>
 
