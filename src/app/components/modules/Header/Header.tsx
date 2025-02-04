@@ -1,14 +1,10 @@
 "use client";
 
-import Link from "next/link";
-import { routes } from "./utils";
-import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import { CSSProperties } from "react";
 import { handleRedirect } from "@/app/utils/utils";
 
 export const Header = () => {
-  const pathname = usePathname();
 
   return (
     <div className="w-full hidden gap-2 justify-between items-center p-7 px-8 lg:flex">
@@ -19,30 +15,6 @@ export const Header = () => {
       </p>
 
       <div className="flex items-center justify-center gap-5">
-        <div className="flex gap-16 items-center flex-1 max-w-96">
-          {routes.map((route) => {
-            // Verificação específica para evitar que `/` ative outras rotas
-            const isActive =
-              route.path === "/"
-                ? pathname === route.path
-                : pathname.startsWith(route.path);
-            return (
-              <Link
-                key={route.id}
-                href={route.path}
-                className={`flex gap-2 flex-col place-items-center min-h-10 ${
-                  isActive ? "text-accent" : ""
-                }`}
-              >
-                <span className="inter text-base">{route.label}</span>
-                {isActive && (
-                  <div className="flex w-2 h-2 rounded-lg bg-white" />
-                )}
-              </Link>
-            );
-          })}
-        </div>
-
         <div className="w-auto h-auto">
           <motion.button
             onClick={() => handleRedirect()}
