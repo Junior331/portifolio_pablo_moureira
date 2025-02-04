@@ -18,7 +18,7 @@ export default function Home() {
               <Title className="text-5xl leading-[55px] font-extrabold">
                 Olá, eu sou
                 <br />
-                PABLO MOUREIRA
+                PABLO MOREIRA
               </Title>
             </BoxReveal>
 

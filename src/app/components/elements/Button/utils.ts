@@ -7,7 +7,7 @@ export const handleDownload = ({
 }: handleDownloadProps) => {
   const link = document.createElement("a");
   const currentDate = getCurrentDate();
-  const fileName = `curriculo-pablo-moureira-${currentDate}.pdf`;
+  const fileName = `curriculo-pablo-moreira-${currentDate}.pdf`;
   link.href = downloadFileUrl;
   link.download = fileName;
   link.click();

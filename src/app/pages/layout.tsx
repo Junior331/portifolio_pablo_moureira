@@ -6,7 +6,7 @@ import { inter } from "../assets/fonts";
 
 export const metadata: Metadata = {
   title: "Portfólio",
-  description: "Pablo Moureira",
+  description: "Pablo Moreira",
 };
 
 export default function RootLayout({

@@ -1,8 +1,8 @@
-# Portifolio Pablo Moureira
+# Portifolio Pablo Moreira
 
 ## App
 
-- https://portifolio-pablo-moureira.vercel.app/
+- https://pablo-moreira.vercel.app/
 
 #### O Produto
 ![alt text](image.png)
