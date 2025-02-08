@@ -24,21 +24,6 @@ export const data = [
             alt="Startup template"
             className="w-full h-auto lg:max-w-[920px] lg:max-h-[400px] border-2 rounded-2xl object-cover border-white"
           />
-
-          <div className="grid grid-cols-3 gap-4">
-            {[
-              images.marketplaceProject,
-              images.mainWebsiteLovemonster,
-              images.zombieCollectionLovemonster,
-            ].map((src, index) => (
-              <Image
-                key={index}
-                src={src}
-                alt={`Imagem ${index + 1}`}
-                className="w-full h-full min-h-20 min-w-20 lg:max-w-[290px] lg:max-h-[150px] border-2 rounded-xl object-cover border-white"
-              />
-            ))}
-          </div>
         </div>
       </div>
     ),
@@ -61,17 +46,6 @@ export const data = [
             alt="Startup template"
             className="w-full h-auto lg:max-w-[920px] lg:max-h-[400px] border-2 rounded-2xl object-cover border-white"
           />
-
-          <div className="grid grid-cols-3 gap-4">
-            {[images.devs, images.devs, images.devs].map((src, index) => (
-              <Image
-                key={index}
-                src={src}
-                alt={`Imagem ${index + 1}`}
-                className="w-full h-full lg:max-w-[290px] lg:max-h-[150px] border-2 rounded-xl object-cover border-white"
-              />
-            ))}
-          </div>
         </div>
       </div>
     ),
@@ -93,19 +67,6 @@ export const data = [
             alt="Startup template"
             className="w-full h-auto lg:max-w-[920px] lg:max-h-[400px] border-2 rounded-2xl object-cover border-white"
           />
-
-          <div className="grid grid-cols-3 gap-4">
-            {[images.conectEdu, images.conectEdu, images.conectEdu].map(
-              (src, index) => (
-                <Image
-                  key={index}
-                  src={src}
-                  alt={`Imagem ${index + 1}`}
-                  className="w-full h-full lg:max-w-[290px] lg:max-h-[150px] border-2 rounded-xl object-cover border-white"
-                />
-              )
-            )}
-          </div>
         </div>
       </div>
     ),
@@ -127,17 +88,6 @@ export const data = [
             alt="Startup template"
             className="w-full h-auto lg:max-w-[920px] lg:max-h-[400px] border-2 rounded-2xl object-cover border-white"
           />
-
-          <div className="grid grid-cols-3 gap-4">
-            {[images.proz, images.proz, images.proz].map((src, index) => (
-              <Image
-                key={index}
-                src={src}
-                alt={`Imagem ${index + 1}`}
-                className="w-full h-full lg:max-w-[290px] lg:max-h-[150px] border-2 rounded-xl object-cover border-white"
-              />
-            ))}
-          </div>
         </div>
       </div>
     ),

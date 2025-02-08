@@ -53,8 +53,8 @@ export default function Home() {
                 </p>
               </BoxReveal>
 
-              <div className="z-10 flex mt-16 items-center justify-start padding-button">
-                <BoxReveal boxColor={"#262626"} duration={0.5}>
+              <div className="z-10 flex max-[480px]:flex-wrap mt-16 items-center justify-start padding-button">
+                <BoxReveal width="100%" boxColor={"#262626"} duration={0.5}>
                   <Button
                     downloadStatus={false}
                     initialText={
@@ -103,7 +103,7 @@ export default function Home() {
                     downloadFileUrl={curriculo}
                   />
                 </BoxReveal>
-                <BoxReveal boxColor={"#262626"} duration={0.5}>
+                <BoxReveal width="100%" boxColor={"#262626"} duration={0.5}>
                   <Button
                     downloadStatus={false}
                     initialText={
@@ -257,7 +257,7 @@ export default function Home() {
             <CloudStack iconSlugs={mocks.slugs} />
           </div>
         </div>
-        <div className="flex max-[465px]:flex-col-reverse max-[1000px]:flex-wrap-reverse max-[608px]:gap-16 max-[608px]:mt-14 gap-8 place-items-end justify-between bottom-8 w-screen px-8">
+        <div className="flex max-[650px]:flex-col-reverse max-[650px]:items-end max-[1000px]:flex-wrap-reverse max-[608px]:gap-16 max-[608px]:mt-14 gap-8 place-items-end justify-between bottom-8 w-screen px-8">
           <div className="flex gap-8">
             <a
               className="inter capitalize text-base cursor-pointer"
@@ -280,17 +280,17 @@ export default function Home() {
               />
             </a>
           </div>
-          <div className="flex gap-12 max-[420px]:flex-wrap max-[465px]:flex-1 items-center justify-between flex-1 max-w-[755px]">
+          <div className="grid grid-cols-4 gap-12 max-[650px]:grid-cols-3 max-[465px]:grid-cols-2 max-[300px]:grid-cols-1 items-center max-w-[755px]">
             <div className="w-auto">
-              <p className="text-3xl font-bold ">
+              <p className="text-3xl font-bold flex">
                 + <NumberTicker value={9} />
               </p>
               <p className="inter text-lg max-[465px]:text-base">
-                Anos de <br /> expêrincia
+                Anos de <br /> experiência
               </p>
             </div>
             <div className="w-auto">
-              <p className=" text-3xl font-bold ">
+              <p className="text-3xl font-bold flex">
                 + <NumberTicker value={14} />
               </p>
               <p className="inter text-lg max-[465px]:text-base">
@@ -298,7 +298,7 @@ export default function Home() {
               </p>
             </div>
             <div className="w-auto">
-              <p className=" text-3xl font-bold ">
+              <p className="text-3xl font-bold flex">
                 + <NumberTicker value={56} />
               </p>
               <p className="inter text-lg max-[465px]:text-base">
@@ -306,7 +306,7 @@ export default function Home() {
               </p>
             </div>
             <div className="w-auto">
-              <p className=" text-3xl font-bold ">
+              <p className="text-3xl font-bold flex">
                 + <NumberTicker value={2374} />
               </p>
               <p className="inter text-lg max-[465px]:text-base">

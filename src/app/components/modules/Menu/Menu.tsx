@@ -4,16 +4,12 @@ import { motion } from "framer-motion";
 import React, { CSSProperties, useState } from "react";
 
 import {
-  ulVariant,
-  liVariant,
   fadeInVariant,
   mobileMenuVariant,
   hideNavItemsVariant,
 } from "./utils";
-import { routes } from "../Header/utils";
 import { handleRedirect } from "@/app/utils/utils";
 import "./styles.css";
-import Link from "next/link";
 
 export const Menu = () => {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -50,25 +46,25 @@ export const Menu = () => {
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
           >
-            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+            <g id="SVGRepo_bgCarrier" strokeWidth="0" />
             <g
               id="SVGRepo_tracerCarrier"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
 
             <g id="SVGRepo_iconCarrier">
               <g
                 id="Page-1"
                 stroke="none"
-                stroke-width="1"
+                strokeWidth="1"
                 fill="none"
-                fill-rule="evenodd"
+                fillRule="evenodd"
               >
                 <g id="Menu">
                   <rect
                     id="Rectangle"
-                    fill-rule="nonzero"
+                    fillRule="nonzero"
                     x="0"
                     y="0"
                     width="24"
@@ -81,8 +77,8 @@ export const Menu = () => {
                     y2="7"
                     id="Path"
                     stroke="#ffffff"
-                    stroke-width="2"
-                    stroke-linecap="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
                   ></line>
                   <line
                     x1="5"
@@ -91,8 +87,8 @@ export const Menu = () => {
                     y2="17"
                     id="Path"
                     stroke="#ffffff"
-                    stroke-width="2"
-                    stroke-linecap="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
                   ></line>
                   <line
                     x1="5"
@@ -101,8 +97,8 @@ export const Menu = () => {
                     y2="12"
                     id="Path"
                     stroke="#ffffff"
-                    stroke-width="2"
-                    stroke-linecap="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
                   ></line>
                 </g>
               </g>
@@ -129,35 +125,19 @@ export const Menu = () => {
               <path
                 d="M1 6.66L6.66 1"
                 stroke="white"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
               <path
                 d="M6.66 6.66L1 1"
                 stroke="white"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </motion.button>
-          <motion.ul variants={ulVariant} className="mt-10">
-            {routes.map((navItem) => (
-              <motion.li
-                whileTap={{ scale: 0.95 }}
-                key={navItem.id}
-                className="mx-0 my-5 hover:italic cursor-pointer"
-              >
-                <motion.div
-                  variants={liVariant}
-                  className="text-center text-4xl"
-                >
-                  <Link href={navItem.path}>{navItem.label}</Link>
-                </motion.div>
-              </motion.li>
-            ))}
-          </motion.ul>
           <motion.div
             variants={fadeInVariant}
             className="flex flex-1 items-end mb-10"
